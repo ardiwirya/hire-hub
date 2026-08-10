@@ -4,7 +4,7 @@ A recruitment management dashboard built to explore how a modern HR platform suc
 
 This is a front end only project. All data is generated in memory and resets on page reload, there is no backend or persistence layer.
 
-Live Demo : [Hire-Hub](https://hire-hub.vercel.app)
+Live Demo : [Hire-Hub](https://hirehub-react.vercel.app/)
 
 ## Preview
 
