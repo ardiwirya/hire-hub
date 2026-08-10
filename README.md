@@ -1,18 +1,18 @@
-# HR Recruitment
+# Hire-Hub
 
 A recruitment management dashboard built to explore how a modern HR platform such as Workday, Greenhouse, or Lever could be structured on the front end. The application covers the full hiring workflow: tracking applicants, moving candidates through recruitment stages, scheduling interviews, and reviewing pipeline metrics.
 
 This is a front end only project. All data is generated in memory and resets on page reload, there is no backend or persistence layer.
 
-Live Demo : [HR Recruitment](https://hire-hub.vercel.app)
+Live Demo : [Hire-Hub](https://hire-hub.vercel.app)
 
 ## Preview
 
 <p align="center">
-<img src="docs/screenshots/hr-dashboard.png" alt="hr dashboard" width="70%" />
+<img src="docs/screenshots/hire-hub.png" alt="hire-hub dashboard" width="70%" />
 
 <p align="center">
-<img src="docs/screenshots/candidate.png" alt="candidate" width="70%" />
+<img src="docs/screenshots/candidates.png" alt="candidates" width="70%" />
 
 <p align="center">
 <img src="docs/screenshots/pipeline.png" alt="pipeline" width="70%" />
@@ -68,8 +68,8 @@ Each folder maps to one concern in the app. Components are kept small and coloca
 Requirements: Node.js 20 or later and npm.
 
 ```bash
-git clone https://github.com/ardiwirya/hr-recruitment.git
-cd hr-recruitment
+git clone https://github.com/ardiwirya/hire-hub.git
+cd hire-hub
 npm install
 npm run dev
 ```

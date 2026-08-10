@@ -17,7 +17,7 @@ export function Sidebar({ className, onNavigate }: SidebarProps) {
   return (
     <aside
       className={cn(
-        'flex w-64 shrink-0 flex-col border-r border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900',
+        "flex w-64 shrink-0 flex-col border-r border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900",
         className,
       )}
     >
@@ -26,7 +26,7 @@ export function Sidebar({ className, onNavigate }: SidebarProps) {
           HR
         </div>
         <span className="text-sm font-semibold text-slate-900 dark:text-slate-100">
-          HR Recruitment
+          Hire-Hub
         </span>
       </div>
 
@@ -35,14 +35,14 @@ export function Sidebar({ className, onNavigate }: SidebarProps) {
           <NavLink
             key={item.to}
             to={item.to}
-            end={item.to === '/'}
+            end={item.to === "/"}
             onClick={onNavigate}
             className={({ isActive }) =>
               cn(
-                'flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors',
+                "flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
                 isActive
-                  ? 'bg-indigo-50 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300'
-                  : 'text-slate-600 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800',
+                  ? "bg-indigo-50 text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300"
+                  : "text-slate-600 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800",
               )
             }
           >
@@ -56,7 +56,7 @@ export function Sidebar({ className, onNavigate }: SidebarProps) {
         v1.0.0 - Internal Build
       </div>
     </aside>
-  )
+  );
 }
 
 type IconProps = { className?: string }
